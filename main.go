@@ -1,9 +1,17 @@
 package main
 
-import (
-	"github.com/manimovassagh/echo-learn/db"
-)
+import "fmt"
 
 func main() {
-	db.Init_DB()
-   }
+
+	type Car struct {
+		name  string
+		model int
+	}
+
+	myCar := Car{
+		name:  "bmv",
+		model: 1244,
+	}
+fmt.Println(myCar)
+}

@@ -6,6 +6,8 @@ import (
 	"gorm.io/gorm"
 )
 
+
+
 func Init_DB() *gorm.DB  {
 	db, err := gorm.Open(sqlite.Open("test.db"), &gorm.Config{})
 	if err != nil {
@@ -14,3 +16,7 @@ func Init_DB() *gorm.DB  {
 	db.AutoMigrate(&models.Product{})
 	return db
 }
+
+
+
+
