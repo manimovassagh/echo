@@ -13,5 +13,5 @@ func main() {
 		name:  "bmv",
 		model: 1244,
 	}
-fmt.Println(myCar)
+fmt.Println(myCar.model)
 }
