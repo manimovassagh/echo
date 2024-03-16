@@ -4,6 +4,8 @@ import "fmt"
 
 func main() {
 
+
+	
 	type Car struct {
 		name  string
 		model int
