@@ -6,7 +6,6 @@ func main() {
 	var name []string
 	type Car struct {
 		name  string
-		model int
 	}
 	
 	type CarTwo struct {
