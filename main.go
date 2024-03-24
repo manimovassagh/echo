@@ -8,7 +8,6 @@ func main() {
 		name  string
 	}
 	
-	type CarTwo struct {
 	}
 
 
