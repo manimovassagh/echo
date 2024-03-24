@@ -10,7 +10,6 @@ func main() {
 	
 	type CarTwo struct {
 		name  string
-		model int
 	}
 
 
