@@ -4,12 +4,6 @@ import "fmt"
 
 func main() {
 
-
-
-
-
-
-	
 	var name []string
 	type Car struct {
 		name  string
