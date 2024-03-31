@@ -10,6 +10,18 @@ func main() {
 		model int
 	}
 
+
+
+
+
+
+
+
+
+
+
+
+	
 	myCar := Car{
 		name:  "bmv",
 		model: 1244,
