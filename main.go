@@ -13,9 +13,6 @@ func main() {
 
 
 
-
-
-
 	myCar := Car{
 		name:  "bmv",
 		model: 1244,
